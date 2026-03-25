@@ -23,5 +23,22 @@
     </header>
 
     <script src="script.js"></script>
+    <script>
+    async function testAI() {
+        const statusDiv = document.getElementById('ai-status');
+        statusDiv.innerText = "Consulting the AI...";
+        
+        try {
+            // We will replace 'localhost' with your Render/Railway URL later
+            const response = await fetch('http://localhost:8000/ask?question=How do I join?');
+            const data = await response.json();
+            statusDiv.innerText = "AI Response: " + data.answer;
+        } catch (error) {
+            statusDiv.innerText = "Error: Backend not running yet.";
+        }
+    }
+</script>
+
+<button onclick="testAI()">Test AI Connection</button>
 </body>
 </html>
