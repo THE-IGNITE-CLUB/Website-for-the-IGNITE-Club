@@ -268,3 +268,154 @@
         </table>
       </div>
       
+
+      <!-- Rankings -->
+      <div class="section-header reveal" style="margin-top:3rem;">
+        <h2 class="section-title" data-i18n="rankings_title">University Rankings &amp; Achievements</h2>
+      </div>
+      <div class="rankings-grid">
+        <div class="ranking-item reveal">
+          <div class="ranking-body">NIRF</div>
+          <div class="ranking-score">101–150</div>
+          <div class="ranking-label">National Institutional Ranking Framework (Universities)</div>
+        </div>
+        <div class="ranking-item reveal">
+          <div class="ranking-body">QS Asia</div>
+          <div class="ranking-score">Top 500</div>
+          <div class="ranking-label">QS World University Rankings – Asia</div>
+        </div>
+        <div class="ranking-item reveal">
+          <div class="ranking-body">THE</div>
+          <div class="ranking-score">1001+</div>
+          <div class="ranking-label">Times Higher Education World University Rankings</div>
+        </div>
+        <div class="ranking-item reveal">
+          <div class="ranking-body">Research Output</div>
+          <div class="ranking-score">5000+</div>
+          <div class="ranking-label">Publications in Scopus &amp; Web of Science indexed journals</div>
+        </div>
+        <div class="ranking-item reveal">
+          <div class="ranking-body">Patents</div>
+          <div class="ranking-score">200+</div>
+          <div class="ranking-label">Patents granted &amp; published</div>
+        </div>
+        <div class="ranking-item reveal">
+          <div class="ranking-body">NAAC Grade</div>
+          <div class="ranking-score">A+</div>
+          <div class="ranking-label">National Assessment and Accreditation Council</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= MAP ======= -->
+  <section id="map-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Location</span>
+        <h2 class="section-title" data-i18n="map_title">Find Us</h2>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.5!2d79.3970675!3d13.6269984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b6b271b4ffd%3A0x30859fdc6c661028!2sSri%20Venkateshwara%20University%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1711500000000"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="SVUCE Location"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CONTACT ======= -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Get Involved</span>
+<h2 class="section-title" data-i18n="contact_title">CONTACT US</h2>
+      </div>
+      <form class="contact-form reveal" action="https://formspree.io/f/xykbkzrd" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-name" data-i18n="contact_name">Full Name</label>
+            <input type="text" id="f-name" name="name" required data-i18n-ph="contact_name" placeholder="Full Name" />
+          </div>
+          <div class="form-group">
+            <label for="f-email" data-i18n="contact_email">Email Address</label>
+            <input type="email" id="f-email" name="email" required data-i18n-ph="contact_email"
+              placeholder="Email Address" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-college" data-i18n="contact_college">College / Institution</label>
+            <input type="text" id="f-college" name="college" data-i18n-ph="contact_college"
+              placeholder="College / Institution" />
+          </div>
+          <div class="form-group">
+            <label for="f-class" data-i18n="contact_class">Class / Year</label>
+            <input type="text" id="f-class" name="class" data-i18n-ph="contact_class"
+              placeholder="e.g. B.Tech 2nd Year" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="f-desc" data-i18n="contact_desc">Tell us about yourself</label>
+          <textarea id="f-desc" name="message" data-i18n-ph="contact_desc"
+            placeholder="Tell us about yourself"></textarea>
+        </div>
+        <!-- Hidden recipient field for Formspree -->
+        <input type="hidden" name="_replyto" value="manas.malla13@gmail.com" />
+        <input type="hidden" name="_subject" value="New IGNITE Club Registration" />
+        <button type="submit" class="form-submit" data-i18n="contact_btn">Submit Registration</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <!-- Live Clock -->
+        <div class="footer-clock">
+          <div class="time" id="live-time">--:--:--</div>
+          <div class="date" id="live-date">Loading…</div>
+        </div>
+
+        <!-- Mini Calendar -->
+        <div class="mini-calendar">
+          <div class="cal-header">
+            <button onclick="calPrev()" aria-label="Previous month">&#8592;</button>
+            <span id="cal-month"></span>
+            <button onclick="calNext()" aria-label="Next month">&#8594;</button>
+          </div>
+          <div class="cal-days-head">
+            <span>Su</span><span>Mo</span><span>Tu</span><span>We</span>
+            <span>Th</span><span>Fr</span><span>Sa</span>
+          </div>
+          <div class="cal-grid" id="cal-grid"></div>
+        </div>
+      </div>
+
+      <!-- Club info -->
+      <div style="text-align:center;margin-bottom:1.5rem;">
+        <img src="IGNITE.png" alt="IGNITE"
+          style="height:60px;opacity:0.85;margin-bottom:0.8rem;mix-blend-mode:screen;" />
+        <p style="color:rgba(255,255,255,0.5);font-size:0.82rem;letter-spacing:1px;text-transform:uppercase;">IGNITE
+          Club · SVUCE, Tirupati, Andhra Pradesh, India</p>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-credits">
+          Designed with ❤️ by <strong>Malla Manas</strong>, <strong>Devarakonda Charan</strong> &amp; <strong>Aritakula
+            Nagamuktha</strong><br />
+          <span style="font-size:0.8rem;color:rgba(255,255,255,0.4);">Their heart and soul went into making this
+            project.</span>
+          <br /><br />
+          <span style="font-size:0.8rem;">© <span id="copy-year"></span> IGNITE Club, SVUCE · All Rights Reserved</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('copy-year').textContent = new Date().getFullYear();</script>
+  <script src="translations.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
